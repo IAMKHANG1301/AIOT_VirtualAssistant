@@ -1,0 +1,7 @@
+# Partition table for ESP32-S3 N16R8 (16MB Flash)
+# No FATFS large size because we don't use SD Card
+# Name,   Type, SubType, Offset,  Size, Flags
+nvs,      data, nvs,     ,        0x6000,
+phy_init, data, phy,     ,        0x1000,
+factory,  app,  factory, ,        8M,
+fatfs,    data, fat,     ,        4M,

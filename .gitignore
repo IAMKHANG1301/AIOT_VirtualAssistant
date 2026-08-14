@@ -1,0 +1,40 @@
+# Gitignore for ESP-IDF projects
+
+# Build directory
+build/
+
+# Configuration files
+sdkconfig
+sdkconfig.old
+sdkconfig-debug
+
+# Component manager
+managed_components/
+dependencies.lock
+
+# VS Code settings
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vscode/c_cpp_properties.json
+
+# Clion settings
+.idea/
+cmake-build-*/
+
+# Python virtual environment (if used)
+venv/
+.env
+
+# MacOS hidden files
+.DS_Store
+
+# Misc IDE and OS files
+*.swp
+*~
+Thumbs.db
+
+# Local LSP Cache
+.clangd/
