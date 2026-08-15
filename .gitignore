@@ -38,3 +38,6 @@ Thumbs.db
 
 # Local LSP Cache
 .clangd/
+
+# Secrets
+secrets.h

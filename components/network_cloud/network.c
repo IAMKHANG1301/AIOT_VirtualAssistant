@@ -54,12 +54,7 @@ static void start_udp_logging() {
 
 static const char *TAG = "PERIPHERAL_NET";
 
-// =============================================================================
-// THAY ĐỔI THÔNG TIN WIFI VÀ API Ở ĐÂY
-// =============================================================================
-#define WIFI_SSID      "LMNK"
-#define WIFI_PASS      "18242113"
-#define HF_SPACE_URL   "https://kenz1301-smart-system-security-api.hf.space/api/process-visitor"
+#include "secrets.h"
 
 static bool s_wifi_connected = false;
 
